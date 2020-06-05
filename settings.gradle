@@ -1,2 +1,3 @@
 rootProject.name='Snat'
 include ':app'
+include ':snat'

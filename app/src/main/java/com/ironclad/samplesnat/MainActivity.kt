@@ -1,4 +1,4 @@
-package com.ironclad.snat
+package com.ironclad.samplesnat
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
