@@ -36,5 +36,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
     implementation 'com.google.android.material:material:1.1.0'
-    implementation 'com.github.IronClad1607:Snat-Toast-and-Snackbar-Library:1.1'
+    implementation project(path: ':snat')
 }
