@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Snat</string>
+    <string name="click_for_toast">Click for Toast(Short)</string>
 </resources>
