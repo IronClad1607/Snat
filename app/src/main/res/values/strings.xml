@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Snat</string>
     <string name="click_for_toast">Click for Toast(Short)</string>
+    <string name="toast_for_duration_log">Toast for duration Long</string>
+    <string name="postional_toast">Positional Toast(Top)</string>
+    <string name="toast_for_positional_bottom">Toast for positional (Bottom)</string>
 </resources>

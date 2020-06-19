@@ -21,11 +21,11 @@ class MainActivity : AppCompatActivity() {
         }
 
         btnSnackbarShort.setOnClickListener {
-            SnatSnackbar.snackbarShort(llContainer, "Test for Snackbar")
+            SnatToast.positionedToast(this, "Top", 1, 3, 300, 0)
         }
 
         btnSnackbarLong.setOnClickListener {
-            SnatSnackbar.snackbarLong(llContainer, "Test for Snackbar Long")
+            SnatToast.positionedToast(this, "Bottom", 1, 4, 200, 0)
         }
     }
 }
