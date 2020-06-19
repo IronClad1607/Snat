@@ -13,11 +13,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btnToastShort.setOnClickListener {
-            SnatToast.toastShort(this, "Test for Toast")
+            SnatToast.toastDefault(this, "Test for Toast Short", 0)
         }
 
         btnToastLong.setOnClickListener {
-            SnatToast.toastLong(this, "Test for Toast Long")
+            SnatToast.toastDefault(this, "Test for Toast Long", 1)
         }
 
         btnSnackbarShort.setOnClickListener {
